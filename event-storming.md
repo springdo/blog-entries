@@ -16,10 +16,11 @@ Comes in two types:
 2. To make trouble. ES is like opening Pandoras' box, we want people talking about it and talking about the difficult bits of our business.
    
 #### The Legend
-* **SYSTEM** - in Big Picture ES. Is there something that can affect our probability of success? Is it a Software? Is it a diff Company? Is it a group or org that could influence things? It could even be something external; eg the weather!
-* **PEOPLE** - in Big Picture ES. Who is the actor? The user? Best practice is to be fuzzy about the who.
-* **READ MODEL** - 
-
+* **System** - in Big Picture ES. Is there something that can affect our probability of success? Is it a Software? Is it a diff Company? Is it a group or org that could influence things? It could even be something external; eg the weather!
+* **People / Actor** - Who is the actor? The user? Best practice is to be fuzzy about the definition of _who_ to keep people in the loop 
+* **Read Model** - I have a decision. What information do i need to make that decision.
+* **Policies / Proceedures** - Whenever. Keyword is whenever. Eg _whenever_ a ticket is purchased, a welcome email is sent. These act as the glue between the bounded context. Further exploration of these will drive inconsistencies in the aggregate. 
+* **The Aggregate** - The state machine of a concept in our model. Often it needs to be opened and closed. The aggregate will receive the command and produce one or more events. Top tip: try not to name it until the very end! 
 
 #### Facilitation Tips
 * Don't be the first to put a sticky on the wall! But give the Ice Breaker award to the person who does.
@@ -43,6 +44,8 @@ Comes in two types:
 * How do you stop yourself recreating your problems? Watch out for the Dungeon Master.... 
   1. Diverstify the people in the room
   2. Keep your events at a business level
+* Think you've got the whole flow mapped out? Then identify Happy / Sads. or Value Gotten / Missing. Uncovering these in the flow will identify more new ground unexplored. Eg Purchase complete = happy for customer but cost time etc for back end fullfilment. 
+* Hold off making decisions until you've modelled enough. Eg seat / reservation. A reservation may not contain a seat but you'll only know by further modelling the system.
 
 
 #### Sorting the Wall (Big Picture Flavour ES)
