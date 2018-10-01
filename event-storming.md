@@ -46,7 +46,7 @@ Comes in two types:
   2. Keep your events at a business level
 * Think you've got the whole flow mapped out? Then identify Happy / Sads. or Value Gotten / Missing. Uncovering these in the flow will identify more new ground unexplored. Eg Purchase complete = happy for customer but cost time etc for back end fullfilment. 
 * Hold off making decisions until you've modelled enough. Eg seat / reservation. A reservation may not contain a seat but you'll only know by further modelling the system.
-
+* Interrupt long discussions but more importantly visualise both opinions so they can be revisted laters.
 
 #### Sorting the Wall (Big Picture Flavour ES)
 * Bubble sort is very inefficient. It’s the default behaviour for us all to use but is actually the most difficult to complete. Suggested Alternatives
